@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài thực hành Box-sizing</title>
+  <!-- Liên kết file style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>So sánh Box-sizing: content-box vs border-box</h1>
+
+  <!-- Thẻ thứ 1: content-box -->
+  <div class="card">
+    <h3>Thẻ 1 (content-box)</h3>
+    <p>Kích thước thực tế bị cộng thêm padding và border.</p>
+  </div>
+
+  <!-- Thẻ thứ 2: border-box -->
+  <div class="card">
+    <h3>Thẻ 2 (border-box)</h3>
+    <p>Kích thước thực tế giữ nguyên đúng 280px x 150px.</p>
+  </div>
+
+  <!-- Thẻ thứ 3: border-box -->
+  <div class="card">
+    <h3>Thẻ 3 (border-box)</h3>
+    <p>Nội dung tự co lại để dành không gian cho padding và border.</p>
+  </div>
+
+</body>
+</html>
